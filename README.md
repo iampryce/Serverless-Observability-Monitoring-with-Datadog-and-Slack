@@ -20,6 +20,9 @@ This monitoring and Alerting stack was implemented on top of the serverless web 
 
 This observability layer provides real-time monitoring, alerting, and operational visibility. 
 
+![Main-Architecture](https://github.com/user-attachments/assets/793213a6-8942-40a5-a562-fc3134efabae)
+
+
 
 ## 🔋 Services Used
 
@@ -59,13 +62,22 @@ Note: Datadog now has access to collect metrics but we need to specify which ser
 
 <img width="600" height="300" alt="services metrics selected" src="https://github.com/user-attachments/assets/6d510fcd-f6b4-4dbe-927d-76f0fe93146a" />
 
+<img width="600" height="300" alt="metrics  flow validation" src="https://github.com/user-attachments/assets/0a53b929-c152-4fcc-b3df-266f2895fa6d" />
+
 
 ## 3. Connected Slack to Datadog
 
 _i installed slack integration in datadog and connected my workspace and channel_
 
-<img width=600" height="300" alt="slack connected" src="https://github.com/user-attachments/assets/e3e55267-ccaf-4b15-bef5-40dd4f0851a3" />
 
+
+<img width="600" height="300" alt="slack connected" src="https://github.com/user-attachments/assets/ac35417f-a7d6-46b8-98b3-c82d142c61ac" />
+
+## 4. Creating Each Monitor and Alerts in Datadog
+
+### Alert 1 -> API Gateway 5XX Errors
+
+ User Impact:  Contact form submission fails for the visitor
 
 
 
