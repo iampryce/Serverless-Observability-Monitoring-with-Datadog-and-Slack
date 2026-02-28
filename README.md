@@ -75,9 +75,25 @@ _i installed slack integration in datadog and connected my workspace and channel
 
 ## 4. Creating Each Monitor and Alerts in Datadog
 
-### Alert 1 -> API Gateway 5XX Errors
+### Alert 1 : API Gateway 5XX Errors (You can use template and adjust to your taste in datadog)
 
- User Impact:  Contact form submission fails for the visitor
+ User Impact:  Contact form submission fails for the visitor, whenever there is a failure in form submision an alert will be generated
+
+Note: To generate alert, I made some changes in the lambda code and sumbmited a form. This will automatically generate error message.
+
+<img width="700" height="300" alt="Api gateway 5XX error 1" src="https://github.com/user-attachments/assets/cb6616b4-390d-4acb-8fb5-09e6e62f61c0" />
+
+
+
+https://github.com/user-attachments/assets/8e9ff184-c20b-41a0-857c-8f9c17fe352e
+
+
+Slack notification Verified ✔
+
+<img width="700" height="300" alt="Api gateway Alert Verified 2" src="https://github.com/user-attachments/assets/60d1c722-747d-47a2-85b0-6007442d13ec" />
+
+
+### Alert 2 : Lambda Function Errors
 
 
 
